@@ -1,5 +1,5 @@
 class MailService {
-  async sendActivationMail () {}
+  async sendActivationMail (to, link) {}
 }
 
 export const mailService = new MailService;
